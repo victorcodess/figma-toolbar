@@ -19,6 +19,10 @@ function App() {
 
         <Switch isDev={isDev} setIsDev={setIsDev} />
       </motion.div>
+
+      <h4 className="absolute bottom-5 right-10 text-base font-mono font-medium">
+        Made by <a href="https://www.victorwilliams.me" target="_blank" className="underline underline-offset-2 hover:text-gray-500 hover:no-underline">Victor Williams</a>
+      </h4>
     </main>
   );
 }
